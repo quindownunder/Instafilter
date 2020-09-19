@@ -111,7 +111,7 @@ struct ContentView: View {
                     ])
             }
             .alert(isPresented: $showingSaveAlert) {
-                Alert(title: Text("Save Errror!"), message: Text("No image selected"), dismissButton: .default(Text("OK")))
+                Alert(title: Text("Save Errror!"), message: Text("Select image first"), dismissButton: .default(Text("OK")))
             }
         }
     }
