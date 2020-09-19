@@ -14,6 +14,7 @@
 		068749282507A1A300A0BC57 /* Preview Assets.xcassets in Resources */ = {isa = PBXBuildFile; fileRef = 068749272507A1A300A0BC57 /* Preview Assets.xcassets */; };
 		0687492B2507A1A300A0BC57 /* LaunchScreen.storyboard in Resources */ = {isa = PBXBuildFile; fileRef = 068749292507A1A300A0BC57 /* LaunchScreen.storyboard */; };
 		068749622511EE6900A0BC57 /* ImagePicker.swift in Sources */ = {isa = PBXBuildFile; fileRef = 068749612511EE6900A0BC57 /* ImagePicker.swift */; };
+		06B484632515A14600C7A8E7 /* ImageSaver.swift in Sources */ = {isa = PBXBuildFile; fileRef = 06B484622515A14600C7A8E7 /* ImageSaver.swift */; };
 /* End PBXBuildFile section */
 
 /* Begin PBXFileReference section */
@@ -26,6 +27,7 @@
 		0687492A2507A1A300A0BC57 /* Base */ = {isa = PBXFileReference; lastKnownFileType = file.storyboard; name = Base; path = Base.lproj/LaunchScreen.storyboard; sourceTree = "<group>"; };
 		0687492C2507A1A300A0BC57 /* Info.plist */ = {isa = PBXFileReference; lastKnownFileType = text.plist.xml; path = Info.plist; sourceTree = "<group>"; };
 		068749612511EE6900A0BC57 /* ImagePicker.swift */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.swift; path = ImagePicker.swift; sourceTree = "<group>"; };
+		06B484622515A14600C7A8E7 /* ImageSaver.swift */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.swift; path = ImageSaver.swift; sourceTree = "<group>"; };
 /* End PBXFileReference section */
 
 /* Begin PBXFrameworksBuildPhase section */
@@ -61,6 +63,7 @@
 				0687491E2507A1A200A0BC57 /* AppDelegate.swift */,
 				068749202507A1A200A0BC57 /* SceneDelegate.swift */,
 				068749222507A1A200A0BC57 /* ContentView.swift */,
+				06B484622515A14600C7A8E7 /* ImageSaver.swift */,
 				068749242507A1A300A0BC57 /* Assets.xcassets */,
 				068749292507A1A300A0BC57 /* LaunchScreen.storyboard */,
 				0687492C2507A1A300A0BC57 /* Info.plist */,
@@ -151,6 +154,7 @@
 			files = (
 				0687491F2507A1A200A0BC57 /* AppDelegate.swift in Sources */,
 				068749622511EE6900A0BC57 /* ImagePicker.swift in Sources */,
+				06B484632515A14600C7A8E7 /* ImageSaver.swift in Sources */,
 				068749212507A1A200A0BC57 /* SceneDelegate.swift in Sources */,
 				068749232507A1A200A0BC57 /* ContentView.swift in Sources */,
 			);
