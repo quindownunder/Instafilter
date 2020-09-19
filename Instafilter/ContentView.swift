@@ -98,6 +98,7 @@ struct ContentView: View {
                         Text("Intensity")
                             .frame(width: 80)
                         Slider(value: intensity)
+                            .padding([.horizontal])
                     }
                     .disabled(disableIntensity)
                     
@@ -105,6 +106,7 @@ struct ContentView: View {
                         Text("Radius")
                             .frame(width: 80)
                         Slider(value: radius)
+                            .padding([.horizontal])
                     }
                     .disabled(disableRadius)
                     
@@ -112,6 +114,7 @@ struct ContentView: View {
                         Text("Scale")
                             .frame(width: 80)
                         Slider(value: scale)
+                            .padding([.horizontal])
                     }
                     .disabled(disableScale)
                 }
